@@ -21,5 +21,5 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n) {
-  
+  let rankedLis = document.querySelectorAll('.rank')
 }
