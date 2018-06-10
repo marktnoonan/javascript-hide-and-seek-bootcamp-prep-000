@@ -23,6 +23,6 @@ function nestedTarget() {
 function increaseRankBy(n) {
   const rankedListItems = Array.from(document.querySelectorAll('.ranked-list > li'))
   rankedListItems.forEach(item => {
-    item.textContent = parseInt(item.textContent) + 2
+    item.textContent = parseInt(item.textContent) + n
   })
 }
