@@ -3,9 +3,10 @@ function deepestChild() {
   
   function goDeep(element){
     if (element.children.length){
-      goDeep(element.children[0])
-    } 
-  return element
+      return goDeep(element.children[0])
+    } else {
+        return element        
+    }
   }
   
   return goDeep(grandNode)
